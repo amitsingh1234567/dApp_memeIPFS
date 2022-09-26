@@ -6,8 +6,8 @@ import Web3 from 'web3';
 import Meme from '../abis/Meme.json';
 const ipfsClient = require('ipfs-http-client');
 
-const projectId = '2F7L3MQSD4KIBReoaegI7VEsvbV';
-const projectSecret = '88390a04e6f98e147b1432f1ec4b1d13';
+const projectId = '';
+const projectSecret = '';
 const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 
 const ipfs = ipfsClient({
